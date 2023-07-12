@@ -1,0 +1,1434 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*****MENU*****/
+
+.barremenu {
+    position: sticky;
+    top: 0%;
+}
+
+.parent-nav {
+    background-color: #3A8021;
+    position: sticky;
+    top: 0%;
+    border: 4px outset black;
+    z-index: 1000;
+}
+
+.enfant-ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
+.sous-enfant-div1 {
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+.sous-enfant-div2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-li {
+    list-style-type: none;
+    margin: 20px;
+
+}
+
+.imgmenu {
+    /* cest ok*/
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.remedeanimale {
+
+    color: #E0ACAC;
+    font-family: 'Satisfy', cursive;
+    margin: 20px 0px 5px 10px;
+
+    font-size: 35px;
+}
+
+.lien1:hover {
+    color: #F87575;
+    font-size: 24px;
+    transition: 1s;
+}
+
+.lien1 {
+    text-decoration: none;
+    cursor: pointer;
+    color: #E0ACAC
+}
+
+.lien2 {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.lien2:hover {
+    color: #F87575;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.menu-logo {
+    height: 40px;
+    width: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.buttonnuit {
+    
+    cursor: pointer;
+    box-shadow: -6px -5px -5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -6px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -6px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin: 0 5px 0px 0px ;
+}
+
+.button-nuit-li {
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: 1s;
+
+
+
+}
+
+.buttonnuit:hover {
+    font-size: 15px;
+}
+
+.dark-mode {
+    background-color: #332B34;
+    color: white;
+}
+
+/*.menu-lo:hover {
+    transition: 5s;
+}*/
+
+/*****FIN DU MENU*****/
+/*****DEBUT DU FOOTER*****/
+
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #E0ACAC;
+    border: 4px outset grey;
+}
+
+
+.f1 {
+    list-style-image: url(img/imgFooter.png);
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-family: 'Satisfy', cursive;
+}
+
+.sousfooter2 .instagram {
+
+    text-decoration: none;
+    width: 50px;
+    margin-top: 36%;
+    margin-right: 10px
+}
+
+.f2 {
+    list-style-type: none;
+}
+
+.sousfooter1 {
+    margin-left: 30px;
+}
+
+/*****FIN DU FOOTER*****/
+/***** DEBUT DE LA PAGE1 HOME*****/
+
+.titrepara {
+    /*background-color: grey;*/
+
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
+.titre {
+    font-size: 26px;
+
+    color: #E0ACAC;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    /*background-color: aqua;*/
+    padding: 20px;
+}
+
+.paragraphe {
+    padding: 20px;
+    text-align: justify;
+    text-align: left;
+    align-items: center;
+    margin: 0px 40px 0px 40px;
+}
+
+.sectionhome {
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one {
+    /*background-color: #F87575;*/
+    padding: 10px;
+    margin: 10px;
+}
+
+.imagedubas {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    /*ombres des img*/
+    transition: 3s;
+}
+
+.imagedubas:hover {
+    height: 330px;
+    width: 330px;
+}
+
+
+.soustitredubas {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+
+    font-size: 20px;
+    /*background-color: aqua;*/
+    padding: 10px;
+    border: 5px double black;
+    border-radius: 5px;
+}
+
+.lien2 {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3A8021;
+}
+
+.lien2:hover {
+    color: #F87575;
+    font-size: 30px;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+/*****FIN DE LA PAGE 1 HOME*****/
+
+/* DEBUT DE LA PAGE2 SNAKE*/
+
+
+.titrepage2 {
+
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    color: #E0ACAC;
+    text-decoration: underline;
+    /*surlignement*/
+    border: 5px double black;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 26px;
+    margin: 10px 0px 20px 0px;
+}
+
+.article2 {
+
+    display: flex;
+    margin: 20px 0px 30px 20px;
+    /*haut,gauche,bas,droite*/
+}
+
+.imgpage2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    /*ombres des img*/
+
+    cursor: grab;
+}
+
+.article2 .paragraphe2 {
+
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+
+    padding: 50px 20px 50px 20px;
+    text-align: left;
+    font-family: 'Satisfy', cursive;
+    line-height: 30px;
+
+
+}
+
+.soustitre2 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    color: #E0ACAC;
+    font-size: 24px;
+    padding: 15px;
+
+}
+
+/*****FIN DE LA PAGE 2 SNAKE****/
+
+/*****DEBUT DE LA PAGE3 ANIMALS**/
+.titrepage3 {
+
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    color: #E0ACAC;
+    text-decoration: underline;
+    border: 5px double #3A8021;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 26px;
+    margin: 10px 0px 20px 0px;
+}
+
+.article3 {
+    /*article 3 est le parent des img et p */
+    display: flex;
+    margin: 20px 0px 30px 20px;
+    /*haut,gauche,bas,droite*/
+}
+
+.imgpage3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: grab;
+
+}
+
+.article3 .paragraphe3 {
+
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    padding: 50px 20px 50px 20px;
+    text-align: left;
+    line-height: 30px;
+
+
+}
+
+.soustitre3 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    color: #E0ACAC;
+    font-size: 24px;
+    padding: 15px;
+}
+
+/****FIN DE LA PAGE3 ANIMALS****/
+
+
+/*DEBUT DE LA PAGE 4 CONTACT*/
+
+
+
+/*pour centrer mon formulaire ...*/
+.formulaire {
+
+    background-color: #E0ACAC;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid #000;
+    margin-bottom: 25%;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.titreform {
+    font-size: 20px;
+}
+
+.corps-formulaire {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.corps-formulaire .gauche .groupe {
+    margin: 20px 0 20px 5px;
+
+}
+
+.formulaire .corps-formulaire .groupe {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulaire .corps-formulaire .droite {
+    display: flex;
+    background-color: #E0ACAC;
+    margin-left: 50px;
+    /* pour creer un espace entre la gauche et la droite*/
+
+
+}
+
+.label-info {
+    margin: 10px;
+}
+
+.input-info {
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.label-message {
+    margin: 10px;
+}
+
+.textarea-message {
+
+    height: 150px;
+    resize: none;
+    border: 2px solid black;
+    font-family: 'Satisfy', cursive;
+
+}
+
+
+/*pour faire la barre de separation*/
+.trait {
+    background-color: #3A8021;
+    height: 5px;
+}
+
+.bouton {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 70px;
+    background-color: #3A8021;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0, 5s;
+    /* effectuez le temps quand le cursor est sur le button*/
+
+}
+
+
+.bouton:hover {
+    /*faire grossir le bouton quand le cursor est dessus*/
+    transform: scale(1.05);
+}
+
+/*FIN DE LA PAGE 4 CONTACT */
+
+/******DEBUT DE LA PAGE 5 CONNEXION******/
+
+/*pour centrer mon formulaire ...*/
+.formulaireco {
+
+    background-color: #E0ACAC;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid #000;
+    margin-bottom: 25%;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.titreformco {
+    font-size: 20px;
+}
+
+.corps-formulaireco {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.corps-formulaireco .gaucheco .groupeco {
+    margin: 20px 0 20px 5px;
+
+}
+
+.formulaireco .corps-formulaireco .groupeco {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.label-infoco {
+    margin: 10px;
+    font-family: 'Satisfy', cursive;
+}
+
+.input-infoco {
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-family: 'Satisfy', cursive;
+    
+
+}
+
+/*pour faire la barre de separation*/
+.traitco {
+    background-color: #3A8021;
+    height: 5px;
+}
+
+.boutonco {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 70px;
+    /*margin-top: 30px;*/
+    background-color: #3A8021;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0, 5s;
+    /* effectuez le temps quand le cursor est sur le button*/
+}
+
+.boutonco:hover {
+    /*faire grossir le bouton quand le cursor est dessus*/
+    transform: scale(1.05);
+}
+
+/********FIN DE LA PAGE 5 FORMCONNEXION***********/
+
+/*********DEBUT DE LA PAGE 6 FORMINSCRIPTION********/
+
+
+/*pour centrer mon formulaire ...*/
+.formulaire-in {
+
+    background-color: #E0ACAC;
+    text-align: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    width: 35%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid #000;
+    margin-bottom: 25%;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.titreform-in {
+    font-size: 20px;
+}
+
+.corps-formulaire-in {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.corps-formulaire-in .gauche-in .groupe-in {
+    margin: 20px 0 20px 5px;
+
+}
+
+.formulaire-in .corps-formulaire-in .groupe-in {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulaire-in .corps-formulaire-in .droite-in {
+    display: flex;
+    background-color: #E0ACAC;
+    margin-left: 50px;
+    /* pour creer un espace entre la gauche et la droite*/
+
+}
+
+.label-info-in {
+    margin: 10px;
+    font-family: 'Satisfy', cursive;
+}
+
+.input-info-in {
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-family: 'Satisfy', cursive;
+
+}
+
+/*pour faire la barre de separation*/
+.trait-in {
+    background-color: #3A8021;
+    height: 5px;
+}
+
+.bouton-in {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 70px;
+    /*margin-top: 30px;*/
+    background-color: #3A8021;
+    color: white;
+    font-family: 'Satisfy', cursive;
+
+
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0, 5s;
+    /* effectuez le temps quand le cursor est sur le button*/
+}
+
+.bouton-in:hover {
+    /*faire grossir le bouton quand le cursor est dessus*/
+    transform: scale(1.05);
+}
+
+/*****FIN DE LA PAGE 6 FORMINSCRIPTION*****/
+
+/****DEBUT DE LA PAGE 7 LES DIVERS********/
+.titrejs {
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    color: #E0ACAC;
+    text-decoration: underline;
+    /*surlignement*/
+    border: 5px double black;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 26px;
+    margin: 10px 0px 20px 0px;
+
+}
+
+.soustitrejs {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.paragraphejs {
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+
+    padding: 50px 20px 50px 20px;
+    text-align: left;
+    font-family: 'Satisfy', cursive;
+    line-height: 30px;
+    display: none;
+}
+
+.boutonjs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.buttonjs {
+
+    background-color: #3A8021;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0, 5s;
+    /* effectuez le temps quand le cursor est sur le button*/
+    margin-top: 15px;
+}
+
+
+
+/******** carrousel ********/
+
+.quatreimgjs {
+    display: flex;
+    overflow: hidden;
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 15px;
+
+
+
+}
+
+.imagejs {
+    flex: 1 0 auto;
+    width: 400px;
+    height: auto;
+    display: none;
+    ;
+
+
+}
+
+.imagejs:first-child {
+    display: block;
+}
+
+/******DEBUT DE LA PAGE VIDEO**************/
+
+.section-ecriture {
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.titrevideos {
+
+    font-size: 26px;
+    border: 5px double black;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 0px 20px 0px;
+    padding: 2%;
+    color: #E0ACAC;
+    text-decoration: underline;
+
+
+}
+
+.soustitre {
+
+    font-size: 23px;
+    padding: 15px;
+
+}
+
+.paravideo {
+
+    font-size: 20px;
+}
+
+.section-videos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.article-videos {
+    margin: 20px 0px 20px 0px;
+
+}
+
+
+
+@keyframes paragraphevideo {
+    0% {
+        color: yellow;
+    }
+
+    33% {
+        color: blue;
+    }
+
+    66% {
+        color: green;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.paragraphevideo {
+    animation: paragraphevideo 5s infinite;
+}
+
+@keyframes soustitrevideo {
+    0% {
+        color: yellow;
+    }
+
+    33% {
+        color: blue;
+    }
+
+    66% {
+        color: green;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.soustitrevideo {
+    animation: paragraphevideo 5s infinite;
+}
+
+/*******DEBUT DE LA PAGE 7 404 ERROR*******/
+
+/*html, body {
+    height: 100%;
+}*/
+
+.corps {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.error {
+    padding: 125px 50px 50px;
+    flex-grow: 1;
+}
+
+.phraseerror {
+
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/************FIN DE LA PAGE 7 ERROR**********/
+
+
+
+/******RESPONSIVE*******/
+/* Media Queries pour écran de 480px à 980px */
+
+/*@media screen and (min-width: 380px) and (max-width: 400px)*/
+@media screen and (max-width: 980px) {
+
+    /***** page 1 HOME *****/
+
+
+
+    .imgmenu {
+        max-width: 100px;
+        margin-right: 10px;
+    }
+
+    .remedeanimale {
+        display: none;
+    }
+
+
+    .lien1 {
+        display: block;
+        padding: 5px 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* Articles */
+
+
+    /***** DEBUT DE LA PAGE1 HOME*****/
+
+    .titrepara {
+        /*background-color: grey;*/
+
+        font-family: 'Satisfy', cursive;
+        font-size: 20px;
+    }
+
+    .titre {
+        font-size: 26px;
+
+        color: #E0ACAC;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        /*background-color: aqua;*/
+        padding: 20px;
+    }
+
+    .paragraphe {
+        padding: 16px;
+        /*text-align: justify;
+        text-align: left;
+        align-items: left;*/
+        margin: 0px 40px 0px 40px;
+    }
+
+    .sectionhome {
+        /*background-color: aqua;*/
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        /*background-color: #F87575;*/
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .imagedubas {
+        height: 250px;
+        width: 250px;
+        border-radius: 15px;
+        box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -8px -5px 5px 0px rgba(0, 0, 0, 0.75);
+        /*ombres des img*/
+        transition: 3s;
+
+    }
+
+    .imagedubas:hover {
+        height: 330px;
+        width: 330px;
+    }
+
+
+    .soustitredubas {
+        text-align: center;
+        font-family: 'Satisfy', cursive;
+        margin: 7px;
+        font-size: 20px;
+        width: 150px;
+
+        background-color: aqua;
+        padding: 3 px;
+        border: 3px double black;
+        border-radius: 5px;
+    }
+
+    .lien2 {
+        text-decoration: none;
+        cursor: pointer;
+        color: #3A8021;
+    }
+
+    .lien2:hover {
+        color: #F87575;
+        font-size: 30px;
+        transition: 1s;
+    }
+
+
+
+    /***** FIN DE LA PAGE 1 HOME*****/
+
+    /* FOOTER */
+    .footer1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .sousfooter1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .f1,
+    .f2 {
+        margin: 0px 10px;
+        list-style: none;
+
+    }
+
+    .sousfooter2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .instagram {
+        max-width: 30px;
+        height: auto;
+    }
+
+
+
+    /***** DEBUT DE LA PAGE 2 SNAKE**/
+
+    .titrepage2 {
+
+        font-family: 'Satisfy', cursive;
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        color: #E0ACAC;
+        text-decoration: underline;
+        border: 5px double black;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 26px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .article2 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgpage2 {
+        margin: auto;
+        width: 200px;
+        height: 150px;
+        border-radius: 15px;
+        /*ombres des img*/
+        cursor: grab;
+    }
+
+    .article2 .paragraphe2 {
+
+        font-size: 15px;
+        margin: 0px 0px 0px 10px;
+        padding: 50px 20px 50px 20px;
+    }
+
+    .soustitre2 {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        font-family: 'Satisfy', cursive;
+        color: #E0ACAC;
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    /***** FIN DE LA PAGE 2 SNAKE*****/
+    /***** DEBUT DE LA PAGE 3 ANIMALS*/
+
+    .titrepage3 {
+
+        font-family: 'Satisfy', cursive;
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        color: #E0ACAC;
+        text-decoration: underline;
+        border: 5px double #3A8021;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 26px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .article3 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgpage3 {
+        margin: auto;
+        width: 200px;
+        height: 150px;
+        border-radius: 15px;
+        cursor: grab;
+    }
+
+    .article3 .paragraphe3 {
+
+        font-size: 15px;
+        margin: 0px 0px 0px 10px;
+        text-align: center;
+
+
+        padding: 50px 20px 50px 20px;
+        text-align: left;
+    }
+
+    .soustitre3 {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        font-family: 'Satisfy', cursive;
+        color: #E0ACAC;
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    /*FIN DE LA PAGE 3 ANIMALS*/
+    /*DEBUT DE LA PAGE 4 FORMCONTACT*/
+
+    .mesure-page {
+        height: 100%;
+    }
+
+    /*pour centrer mon formulaire ...*/
+    .formulaire {
+
+        background-color: #E0ACAC;
+        width: auto;
+        border-radius: 10px;
+        border: 5px solid #000;
+        margin-bottom: 25%;
+    }
+
+    .titreform {
+        font-size: 20px;
+    }
+
+    .corps-formulaire .gauche .groupe {
+        margin: 20px 0 20px 5px;
+
+    }
+
+    .formulaire .corps-formulaire .groupe {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .formulaire .corps-formulaire .droite {
+        display: flex;
+        background-color: #E0ACAC;
+        margin-left: 5px;
+        /* pour creer un espace entre la gauche et la droite*/
+
+
+    }
+
+    .label-info {
+        margin: 10px;
+    }
+
+    .input-info {
+        padding: 10px;
+        border: solid 2px black;
+        border-radius: 5px;
+
+    }
+
+    .label-message {
+        margin: 10px;
+    }
+
+    .textarea-message {
+
+        height: 150px;
+        resize: none;
+        border: 2px solid black;
+
+    }
+
+    /*pour faire la barre de separation*/
+    .trait {
+        background-color: #3A8021;
+        height: 5px;
+    }
+
+    .bouton {
+        margin-top: 20px;
+        margin-right: 50px;
+        margin-left: 70px;
+        background-color: #3A8021;
+        color: white;
+
+
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0, 5s;
+        /* effectuez le temps quand le cursor est sur le button*/
+
+    }
+
+    .bouton:hover {
+        /*faire grossir le bouton quand le cursor est dessus*/
+        transform: scale(1.05);
+
+    }
+}
+
+/*FIN DE LA PAGE 4 FORMCONTACT*/
+
+@media screen and (max-width: 680px) {
+
+    /* PAGE 4 FORMCONTACT*/
+
+    .bouton {
+        padding: 5px 10px
+    }
+
+
+    /* PAGE 5 FORMCONNEXION*/
+    .boutonco {
+        padding: 5px 10px;
+
+    }
+
+    .mesure-page-co {
+        height: 100%;
+    }
+
+
+    /*PAGE 6 FORMINSCRIPTION*/
+
+    .bouton-in {
+        padding: 5px 10px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 400px) {
+
+
+    /* HEADER RESPONSIVE */
+    .barremenu {
+        position: sticky;
+        top: 0%;
+    }
+
+    .parent-nav {
+        background-color: #3A8021;
+        position: sticky;
+        top: 0%;
+        border: 4px outset black;
+        z-index: 1000;
+    }
+
+    .enfant-ul {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Satisfy', cursive;
+        font-size: 10px;
+    }
+
+    .sous-enfant-div1 {
+        display: flex;
+        /*justify-content: space-around;*/
+    }
+
+    .sous-enfant-div2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-li {
+        list-style-type: none;
+        margin: 10px;
+    }
+
+    .imgmenu {
+        /* cest ok*/
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 10px;
+    }
+
+    .remedeanimale {
+        color: #E0ACAC;
+        font-family: 'Satisfy', cursive;
+        margin: 10px 0px 5px 5px;
+        font-size: 25px;
+    }
+
+    .lien1:hover {
+        color: #F87575;
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    .lien1 {
+        text-decoration: none;
+        cursor: pointer;
+        color: #E0ACAC;
+    }
+
+    .lien2 {
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+    }
+
+    .lien2:hover {
+        color: #F87575;
+        font-size: 25px;
+        transition: 1s;
+    }
+
+    .menu-logo {
+        height: 30px;
+        width: 40px;
+        border-radius: 15px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .buttonnuit {
+        cursor: pointer;
+        box-shadow: -6px -5px -5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -6px -5px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -6px -5px 5px 0px rgba(0, 0, 0, 0.75);
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+        margin: 0 3px 0px 0px;
+    }
+
+    .button-nuit-li {
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: 1s;
+    }
+
+    .buttonnuit:hover {
+        font-size: 12px;
+    }
+
+
+
+/* FOOTER RESPNSIVE*/
+
+    .footer1 {
+        display: block;
+        background-color: black;
+        color: #E0ACAC;
+        border: 4px outset grey;
+    }
+
+    .f1 {
+        /* list-style-image: url(img/imgFooter.png); */
+        font-size: 5px;
+        margin-bottom: 2px;
+        font-family: 'Satisfy', cursive;
+    }
+
+    .sousfooter2 .instagram {
+        text-decoration: none;
+        width: 20px;
+        margin-top: 15%;
+        margin-right: 8px;
+        display: none;
+    }
+
+    .f2 {
+        list-style-type: none;
+    }
+
+    .sousfooter1 {
+        margin-left: 5px;
+    }
+
+/* LES VIDEOS*/
+
+    .videos{
+        height: 300px;
+        width: 300px;
+    }
+
+
+
+/* PAGE HOME */
+
+    .paragraphe {
+        padding: 20px;
+        text-align: justify;
+        text-align: left;
+        align-items: center;
+        margin: 0px 40px 0px 40px;
+        font-size: 15px;
+    }
+
+    .imagedubas {
+        height: 200px;
+        width: 200px;
+    }
+
+    .img-soustitre{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
+        align-items: center;
+    }
+
+/* CARROUSEL RESPONSIVE*/
+    .quatreimgjs{
+        height: 300px;
+        width: 350px;
+    }
+    
+}
+
+
+     
+    
+
